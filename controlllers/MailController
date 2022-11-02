@@ -1,0 +1,7 @@
+const send = (req, res) => {
+    res.json("Chegou lá.")
+}
+
+module.exports = {
+    send,
+}
